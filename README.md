@@ -640,4 +640,20 @@ sh sbin/stop-all.sh
 ```
 在浏览器输入`http://主服务器IP:8088`查看集群信息
 
+- - -
+
+#### [Docker](http://www.docker.com/) ####
+
+##### 安装 #####
+CentOS内置Docker，安装只需要一行命令即可
+```shell
+yum -y install docker
+```
+设置为开机自启动
+```shell
+systemctl enable docker.service
+```
+
+Docker安装完毕，有时间会补上Docker的用法
+
 **未完待续**
