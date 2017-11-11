@@ -191,8 +191,8 @@ export TOMCAT_HOME=/usr/local/tomcat-8.0.35 (Tomcat解压路径)
 ```shell
 JAVA_OPTS='-Xms256m (初始化堆内存)
 -Xmx512m (最大堆内存)
--XX:PermSize=256m (初始化栈内存)
--XX:MaxPermSize=512m (最大栈内存)'
+-XX:PermSize=256m (初始化持久代，JDK8已取消)
+-XX:MaxPermSize=512m (最大持久代，JDK8已取消)'
 ```
 
 - - -
